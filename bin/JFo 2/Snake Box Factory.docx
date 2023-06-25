@@ -1,0 +1,41 @@
+//Java Foundations - Exercícios - Seção 2
+
+
+Objeto 1: Pedido
+O objeto "Pedido" representa uma solicitação de caixas de papelão personalizadas com cobras. Ele encapsula as informações relacionadas a um pedido específico, como os detalhes do cliente, os requisitos da caixa (tamanho, design, quantidade, etc.) e qualquer instrução especial.
+
+Propriedades do objeto "Pedido":
+1.1 Cliente: o cliente que fez o pedido.
+1.2 Detalhes da Caixa: informações sobre o tamanho, design e quantidade de caixas solicitadas.
+1.3 Instruções Especiais: quaisquer instruções especiais fornecidas pelo cliente para a produção do pedido.
+
+Comportamentos do objeto "Pedido":
+1.4 Adicionar Item: adiciona um item (caixa) ao pedido.
+1.5 Remover Item: remove um item (caixa) do pedido.
+1.6 Calcular Preço Total: calcula o preço total do pedido com base nas caixas solicitadas e em outros fatores, como personalizações adicionais.
+
+Objeto 2: Departamento de Produção
+O objeto "Departamento de Produção" representa o departamento responsável pela produção das caixas de papelão e pelo preenchimento com cobras. Ele controla o fluxo de trabalho da produção e monitora o status de cada pedido em andamento.
+
+Propriedades do objeto "Departamento de Produção":
+2.1 Pedidos em Andamento: lista de pedidos que estão em processo de produção.
+2.2 Status do Pedido: indica o status atual de um pedido (em espera, em produção, concluído, etc.).
+2.3 Funcionários: lista de funcionários atribuídos ao departamento de produção.
+
+Comportamentos do objeto "Departamento de Produção":
+2.4 Processar Pedido: inicia o processo de produção para um pedido específico.
+2.5 Atualizar Status: atualiza o status de um pedido conforme avança pelo processo de produção.
+2.6 Atribuir Funcionário: atribui um funcionário responsável por realizar o trabalho de produção para um determinado pedido.
+
+Objeto 3: Sistema de Pedidos
+O objeto "Sistema de Pedidos" representa o sistema de software que gerencia todo o processo de pedidos da Snake Box Factory. Ele coordena as interações entre os diferentes departamentos e armazena informações relevantes sobre os pedidos e clientes.
+
+Propriedades do objeto "Sistema de Pedidos":
+3.1 Base de Dados de Clientes: armazena informações dos clientes, como nome, endereço, histórico de pedidos, etc.
+3.2 Base de Dados de Pedidos: armazena informações detalhadas sobre os pedidos recebidos.
+3.3 Integração com Departamentos: permite a comunicação e compartilhamento de dados com o Departamento de Produção e outros departamentos relacionados.
+
+Comportamentos do objeto "Sistema de Pedidos":
+3.4 Receber Pedido: recebe e registra um novo pedido no sistema.
+3.5 Consultar Status: fornece informações atualizadas sobre o status de um pedido específico.
+3.6 Gerar Relatórios: gera relatórios e análises sobre os pedidos, desempenho do departamento de produção e satisfação do cliente.
