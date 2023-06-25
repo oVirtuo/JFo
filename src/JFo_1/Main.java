@@ -1,3 +1,5 @@
+package JFo_1;
+
 //Java Foundations - Exercícios - Seção 1
 
 

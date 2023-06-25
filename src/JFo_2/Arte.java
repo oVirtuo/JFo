@@ -1,3 +1,5 @@
+package JFo_2;
+
 //Java Foundations - Exercícios - Seção 2
 
 public class Arte {
